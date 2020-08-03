@@ -1,0 +1,191 @@
+{
+    "role": "Front end engineer",
+
+    "title_experiences": "Experiences",
+    "experiences": [
+        {
+            "name": "Visual Meta GmbH",
+            "role": "Front End Engineer",
+            "location": "Berlin - Germany",
+            "start": "Dec 19",
+            "description": [
+                "Responsible of maintaining Partner Dashboard, Visual Meta's b2b reporting tool, which aim is to provide statistics and reports to ladenzeile.de business customers",
+                "Charged of integrating UI/UX design according to given mockups in order to improve Partner Dashboard's ease of use and efficiency",
+                "Maintained and monitored jenkins tasks for the team"
+            ]
+        },
+        {
+            "name": "Zero to One Technology",
+            "role": "Developer",
+            "location": "Caen - France",
+            "start": "Jan 18",
+            "stop": "Nov 19",
+            "description": [
+                "Worked on the front and back end of Comscope, a system which automatically translates audio and video recordings of a one on one interaction into quantitative variables",
+                "Charged of integrating UI/UX design for modernization of the Comscope, e.g. recording dashboard",
+                "Consolidated continuous integration",
+                "Worked on semantic detection in the Comscope"
+            ]
+        },
+        {
+            "name": "Apitic",
+            "role": "Developer",
+            "location": "Lannion - France",
+            "start": "Jun 16",
+            "stop": "Jan 18",
+            "description": [
+                "Improved and maintained Apitic's software suite which is composed of an online cash register and management solutions for shops",
+                "Designed and implemented new features across back end, web front end including user interfaces and APIs",
+                "Lightened up technical debt: rewrote and refreshed modules to ease further improvement"
+            ]
+        },
+        {
+            "name": "Apitic",
+            "role": "Intern",
+            "location": "Lannion - France",
+            "start": "Apr 16",
+            "stop": "Jun 16",
+            "description": [
+                "Conceived and developed an internal issues management system for customer service and developer team",
+                "The software had to answer the needs of the customer service team who needed an easy to navigate interface in order to take clients' requests with user rights taken into account",
+                "Doubled as a software issue management system"
+            ]
+        }
+    ],
+
+    "title_projects": "Selected Projects",
+    "projects": [
+        {
+            "role": "Developer",
+            "description": "Developed modules for an adaptation of ZTO's Comscope to phone conversations with the goal of deploying it to call centers by integrating UI / UX designs in collaboration with the team's designer and implemented server side APIs"
+        },
+        {
+            "role": "Project manager, responsible of internship",
+            "description": [
+                "Conceived and developed an ordering software for specific mall aisles with the collaboration of an intern",
+                "The project had to be deployed in points of a mall where employees could take customer's orders with offline capabilities and synchronization"
+            ]
+        },
+        {
+            "role": "Project manager",
+            "description": "Conceived and developed an internal software to manage Apitic's customers subscriptions, options and billing"
+        }
+    ],
+
+    "title_education": "Education",
+
+    "title_contact": "Contact Info",
+
+    "title_skills": "Skills",
+    "skillsCategories": [
+        {
+            "title": "Languages",
+            "skills": [
+                {
+                    "level": 4,
+                    "title": "JavaScript ES6"
+                },
+                {
+                    "level": 3,
+                    "title": "TypeScript"
+                },
+                {
+                    "level": 4,
+                    "title": "HTML5"
+                },
+                {
+                    "level": 4,
+                    "title": "CSS3"
+                },
+                {
+                    "level": 4,
+                    "title": "PHP"
+                },
+                {
+                    "level": 2,
+                    "title": "Python 3"
+                },
+                {
+                    "level": 2,
+                    "title": "Node.js"
+                }
+            ]
+        },
+        {
+            "title": "Frameworks",
+            "skills": [
+                {
+                    "level": 4,
+                    "title": "Angular"
+                },
+                {
+                    "level": 3,
+                    "title": "Laravel"
+                },
+                {
+                    "level": 2,
+                    "title": "Symfony"
+                },
+                {
+                    "level": 2,
+                    "title": "AngularJS"
+                },
+                {
+                    "level": 1,
+                    "title": "Vue.js"
+                }
+            ]
+    },
+        {
+            "title": "Libraries",
+            "skills": [
+                {
+                    "level": 4,
+                    "title": "jQuery"
+                },
+                {
+                    "level": 3,
+                    "title": "Bootstrap"
+                },
+                {
+                    "level": 2,
+                    "title": "d3.js"
+                },
+                {
+                    "level": 1,
+                    "title": "Socket.io"
+                }
+            ]
+        },
+        {
+            "title": "Tools",
+            "skills": [
+                {
+                    "level": 4,
+                    "title": "Git"
+                },
+                {
+                    "level": 3,
+                    "title": "Shell"
+                },
+                {
+                    "level": 1,
+                    "title": "Jenkins"
+                },
+                {
+                    "level": 1,
+                    "title": "Kubernetes"
+                }
+            ]
+        },
+        {
+            "title": "Methodologies",
+            "skills": [
+                {
+                    "level": 2,
+                    "title": "Scrum"
+                }
+            ]
+        }
+    ]
+}

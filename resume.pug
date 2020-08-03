@@ -1,0 +1,58 @@
+include resume-mixins.pug
+
+#main
+    #title
+        h1 Adrien LE GALL
+        .subtitle #{role}
+
+    .main-block
+        h2 #[i.fa.fa-suitcase] #{title_experiences}
+
+        each experience in experiences
+            +item(experience.role, experience.name, experience.location, experience.start, experience.stop)
+                ul
+                    each line in experience.description
+                        li #{line}
+
+    .main-block
+        h2 #[i.fa.fa-folder-open] #{title_projects}
+
+        each project in projects
+            +item(project.role, null, null, null, null)
+                if typeof project.description === 'string'
+                    .description #{project.description}
+                else
+                    ul
+                        each line in project.description
+                            li #{line}
+
+    .main-block.concise
+        h2 #[i.fa.fa-graduation-cap] #{title_education}
+
+        +item("DUT Informatique", "IUT de Lannion (22, Université de Rennes 1)", "France", "2016", null)
+
+        +item("Bac STI2D", "Lycée la Mennais (56)", "France", "2013", null)
+
+#sidebar
+    #contact.side-block
+        h1 #{title_contact}
+        ul
+            li #[i.fa.fa-envelope] <!-- keep the trailing space-->
+                a(href='mailto:adrien.le.g.ll@gmail.com') adrien.le.g.ll@gmail.com
+            li #[i.fa.fa-phone] <!-- keep the trailing space-->
+                a(href='tel:+33 6 20 94 86 19') +33 6 20 94 86 19
+            li #[i.fa.fa-github] <!-- keep the trailing space-->
+                a(href='http://github.com/legallai') github.com/legallai
+            li #[i.fa.fa-linkedin] <!-- keep the trailing space-->
+                a(href='https://www.linkedin.com/in/adrienlegall/') linkedin.com/in/adrienlegall
+
+    #skills.side-block
+        h1 #{title_skills}
+        each category in skillsCategories
+            h3 #{category.title}
+            ul
+                each skill in category.skills
+                    +skill(skill.title, skill.level)
+
+style
+    include resume.css

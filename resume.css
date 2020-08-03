@@ -1,0 +1,97 @@
+@import 'https://cdn.jsdelivr.net/gh/mnjul/html-resume@71ffb26da44abb41dad40b64eb7a975ccc5dd247/style.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+
+:root{
+    --page-width: 8.5in;
+    --main-width: 5.5in;
+    --sidebar-width: calc(var(--page-width) - var(--main-width));
+}
+
+@media not print {
+    body {
+        display: flex;
+        justify-content: center;
+        width: unset;
+        zoom: 150%;
+    }
+}
+
+#sidebar{
+    width: var(--sidebar-width);
+}
+
+.blocks:last-child .decorator{ /* slightly shortens it */
+    margin-bottom: 0.05in;
+}
+
+.details .place {
+    float: unset;
+}
+
+.main-block:not(.concise) .details div {
+    margin: 0.06in 0 0.1in 0;
+}
+
+#main{
+    font-size: 8pt;
+}
+
+#sidebar{
+    font-size: 9.5pt;
+}
+
+#title h1{
+    font-size: 19pt;
+}
+
+.subtitle{
+    font-size: 9pt;
+}
+
+#main h2{
+    font-size: 12pt;
+}
+
+.date{
+    font-size: 8pt;
+}
+
+.details h3{
+    font-size: 10pt;
+}
+
+.details .place{
+    font-size: 8.5pt;
+}
+
+#sidebar h1{
+    font-size: 12pt;
+}
+
+#disclaimer{
+    font-size: 8.5pt;
+}
+
+a {
+    all: unset;
+}
+
+.blocks {
+    height: fit-content;
+}
+
+.decorator::after {
+    margin-left: 1px;
+}
+
+.level {
+    float: right;
+}
+
+span.grey {
+    color: lightgrey;
+}

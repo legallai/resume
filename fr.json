@@ -1,0 +1,191 @@
+{
+    "role": "Développeur web front end",
+
+    "title_experiences": "Expériences",
+    "experiences": [
+        {
+            "name": "Visual Meta GmbH",
+            "role": "Ingénieur Front End",
+            "location": "Berlin - Germany",
+            "start": "Dec 19",
+            "description": [
+                "Responsable de maintenir le tableau de bord partenaire, l'outil de statistiques de Visual Meta, dont le but est de proposer des statistiques et des rapports aux clients entreprise de shopalike.fr",
+                "Chargé d'intégrer des maquettes UI/UX de manière à améliorer la facilité d'utilisation et l'efficacité du tableau de bord partenaire",
+                "Maintenance et monitoring des taches jenkins pour l'équipe"
+            ]
+        },
+        {
+            "name": "Zero to One Technology",
+            "role": "Développeur",
+            "location": "Caen - France",
+            "start": "Jan 18",
+            "stop": "Nov 19",
+            "description": [
+                "Améliorations sur le front et le back end du Comscope, un système transformant automatiquement des enregistrements audio et vidéo d'entretiens en face à face en variables quantitatives",
+                "Chargé d'intégration de designs UI/UX pour la modernisation du Comscope, ex. dashboard des enregistrements",
+                "Consolidation de l'intégration continue",
+                "Amélioration de la détection sémantique du Comscope"
+            ]
+        },
+        {
+            "name": "Apitic",
+            "role": "Développeur",
+            "location": "Lannion - France",
+            "start": "Jun 16",
+            "stop": "Jan 18",
+            "description": [
+                "Amélioration et maintien de la suite logicielle d'Apitic qui est composée d'une caisse enregistreuse en ligne et de solutions de management pour les commerçants",
+                "Design et implémentation de nouvelles fonctionnalités dans le back end et le front end incluant des interfaces utilisateur et des APIs",
+                "Allègement de la dette technique: réécriture et rafraîchissement de modules afin de faciliter les développements futurs"
+            ]
+        },
+        {
+            "name": "Apitic",
+            "role": "Stagiaire",
+            "location": "Lannion - France",
+            "start": "Apr 16",
+            "stop": "Jun 16",
+            "description": [
+                "Conception et développement d'un système de gestion de tickets interne pour le service client et l'équipe de développement",
+                "Le logiciel devait répondre aux besoins de l'équipe du service client qui avait besoin d'une interface facilement navigable de façon à prendre les demandes client (avec gestion des permissions prise en compte)",
+                "Devait également pouvoir servir de gestionnaire de bugs logiciels"
+            ]
+        }
+    ],
+
+    "title_projects": "Projets",
+    "projects": [
+        {
+            "role": "Développeur",
+            "description": "Développement de modules pour une adaptation du Comscope de ZTO aux conversations téléphoniques avec pour but de déployer la solution dans les call centers en intégrant des éléments d'UI/UX ainsi que des APIs coté serveur"
+        },
+        {
+            "role": "Responsable de projet, responsable d'alternance",
+            "description": [
+                "Conception et développement d'un logiciel de commande client pour les rayons spécifiques des grandes surfaces (charcuterie, fromage) en collaboration avec un alternant",
+                "Le projet devait être déployé dans les points du supermarché où les employés prenaient les commandes clients avec la possibilité d'être déconnecté du réseau puis de resynchroniser"
+            ]
+        },
+        {
+            "role": "Responsable de projet",
+            "description": "Conception et développement d'un logiciel interne pour gérer les abonnements clients d'Apitic ainsi que leurs options et facturation"
+        }
+    ],
+
+    "title_education": "Education",
+
+    "title_contact": "Contact",
+
+    "title_skills": "Compétences",
+    "skillsCategories": [
+        {
+            "title": "Langages",
+            "skills": [
+                {
+                    "level": 4,
+                    "title": "JavaScript ES6"
+                },
+                {
+                    "level": 3,
+                    "title": "TypeScript"
+                },
+                {
+                    "level": 4,
+                    "title": "HTML5"
+                },
+                {
+                    "level": 4,
+                    "title": "CSS3"
+                },
+                {
+                    "level": 4,
+                    "title": "PHP"
+                },
+                {
+                    "level": 2,
+                    "title": "Python 3"
+                },
+                {
+                    "level": 2,
+                    "title": "Node.js"
+                }
+            ]
+        },
+        {
+            "title": "Frameworks",
+            "skills": [
+                {
+                    "level": 4,
+                    "title": "Angular"
+                },
+                {
+                    "level": 3,
+                    "title": "Laravel"
+                },
+                {
+                    "level": 2,
+                    "title": "Symfony"
+                },
+                {
+                    "level": 2,
+                    "title": "AngularJS"
+                },
+                {
+                    "level": 1,
+                    "title": "Vue.js"
+                }
+            ]
+    },
+        {
+            "title": "Libraries",
+            "skills": [
+                {
+                    "level": 4,
+                    "title": "jQuery"
+                },
+                {
+                    "level": 3,
+                    "title": "Bootstrap"
+                },
+                {
+                    "level": 2,
+                    "title": "d3.js"
+                },
+                {
+                    "level": 1,
+                    "title": "Socket.io"
+                }
+            ]
+        },
+        {
+            "title": "Outils",
+            "skills": [
+                {
+                    "level": 4,
+                    "title": "Git"
+                },
+                {
+                    "level": 3,
+                    "title": "Shell"
+                },
+                {
+                    "level": 1,
+                    "title": "Jenkins"
+                },
+                {
+                    "level": 1,
+                    "title": "Kubernetes"
+                }
+            ]
+        },
+        {
+            "title": "Methodologies",
+            "skills": [
+                {
+                    "level": 2,
+                    "title": "Scrum"
+                }
+            ]
+        }
+    ]
+}

@@ -29,26 +29,14 @@
         },
         {
             "name": "Apitic",
-            "role": "Developer",
+            "role": "Intern then developer",
             "location": "Lannion - France",
-            "start": "Jun 16",
+            "start": "Apr 16",
             "stop": "Jan 18",
             "description": [
                 "Improved and maintained Apitic's software suite which is composed of an online cash register and management solutions for shops",
                 "Designed and implemented new features across back end, web front end including user interfaces and APIs",
                 "Lightened up technical debt: rewrote and refreshed modules to ease further improvement"
-            ]
-        },
-        {
-            "name": "Apitic",
-            "role": "Intern",
-            "location": "Lannion - France",
-            "start": "Apr 16",
-            "stop": "Jun 16",
-            "description": [
-                "Conceived and developed an internal issues management system for customer service and developer team",
-                "The software had to answer the needs of the customer service team who needed an easy to navigate interface in order to take clients' requests with user rights taken into account",
-                "Doubled as a software issue management system"
             ]
         }
     ],
@@ -65,10 +53,6 @@
                 "Conceived and developed an ordering software for specific mall aisles with the collaboration of an intern",
                 "The project had to be deployed in points of a mall where employees could take customer's orders with offline capabilities and synchronization"
             ]
-        },
-        {
-            "role": "Project manager",
-            "description": "Conceived and developed an internal software to manage Apitic's customers subscriptions, options and billing"
         }
     ],
 

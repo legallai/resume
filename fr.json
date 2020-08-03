@@ -29,26 +29,14 @@
         },
         {
             "name": "Apitic",
-            "role": "Développeur",
+            "role": "Stagiaire puis développeur",
             "location": "Lannion - France",
-            "start": "Jun 16",
+            "start": "Apr 16",
             "stop": "Jan 18",
             "description": [
                 "Amélioration et maintien de la suite logicielle d'Apitic qui est composée d'une caisse enregistreuse en ligne et de solutions de management pour les commerçants",
                 "Design et implémentation de nouvelles fonctionnalités dans le back end et le front end incluant des interfaces utilisateur et des APIs",
                 "Allègement de la dette technique: réécriture et rafraîchissement de modules afin de faciliter les développements futurs"
-            ]
-        },
-        {
-            "name": "Apitic",
-            "role": "Stagiaire",
-            "location": "Lannion - France",
-            "start": "Apr 16",
-            "stop": "Jun 16",
-            "description": [
-                "Conception et développement d'un système de gestion de tickets interne pour le service client et l'équipe de développement",
-                "Le logiciel devait répondre aux besoins de l'équipe du service client qui avait besoin d'une interface facilement navigable de façon à prendre les demandes client (avec gestion des permissions prise en compte)",
-                "Devait également pouvoir servir de gestionnaire de bugs logiciels"
             ]
         }
     ],
@@ -65,10 +53,6 @@
                 "Conception et développement d'un logiciel de commande client pour les rayons spécifiques des grandes surfaces (charcuterie, fromage) en collaboration avec un alternant",
                 "Le projet devait être déployé dans les points du supermarché où les employés prenaient les commandes clients avec la possibilité d'être déconnecté du réseau puis de resynchroniser"
             ]
-        },
-        {
-            "role": "Responsable de projet",
-            "description": "Conception et développement d'un logiciel interne pour gérer les abonnements clients d'Apitic ainsi que leurs options et facturation"
         }
     ],
 

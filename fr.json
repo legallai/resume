@@ -45,10 +45,12 @@
     "projects": [
         {
             "role": "Développeur",
+            "company": "Zero to One Technology",
             "description": "Développement de modules pour une adaptation du Comscope de ZTO aux conversations téléphoniques avec pour but de déployer la solution dans les call centers en intégrant des éléments d'UI/UX ainsi que des APIs coté serveur"
         },
         {
             "role": "Responsable de projet, responsable d'alternance",
+            "company": "Apitic",
             "description": [
                 "Conception et développement d'un logiciel de commande client pour les rayons spécifiques des grandes surfaces (charcuterie, fromage) en collaboration avec un alternant",
                 "Le projet devait être déployé dans les points du supermarché où les employés prenaient les commandes clients avec la possibilité d'être déconnecté du réseau puis de resynchroniser"

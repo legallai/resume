@@ -18,7 +18,7 @@ include resume-mixins.pug
         h2 #[i.fa.fa-folder-open] #{title_projects}
 
         each project in projects
-            +item(project.role, null, null, null, null)
+            +item(project.role, project.company, null, null, null)
                 if typeof project.description === 'string'
                     .description #{project.description}
                 else

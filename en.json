@@ -45,10 +45,12 @@
     "projects": [
         {
             "role": "Developer",
+            "company": "Zero to One Technology",
             "description": "Developed modules for an adaptation of ZTO's Comscope to phone conversations with the goal of deploying it to call centers by integrating UI / UX designs in collaboration with the team's designer and implemented server side APIs"
         },
         {
             "role": "Project manager, responsible of internship",
+            "company": "Apitic",
             "description": [
                 "Conceived and developed an ordering software for specific mall aisles with the collaboration of an intern",
                 "The project had to be deployed in points of a mall where employees could take customer's orders with offline capabilities and synchronization"

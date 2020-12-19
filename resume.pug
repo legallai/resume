@@ -9,7 +9,7 @@ include resume-mixins.pug
         h2 #[i.fa.fa-suitcase] #{title_experiences}
 
         each experience in experiences
-            +item(experience.role, experience.name, experience.location, experience.start, experience.stop)
+            +item(experience.role, experience.company, experience.location, experience.start, experience.stop)
                 ul
                     each line in experience.description
                         li #{line}

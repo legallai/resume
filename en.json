@@ -4,10 +4,18 @@
     "title_experiences": "Experiences",
     "experiences": [
         {
-            "name": "Visual Meta GmbH",
+            "company": "Qonto",
+            "role": "Front End Engineer",
+            "location": "Paris - France",
+            "start": "Jan 21",
+            "description": ""
+        },
+        {
+            "company": "Visual Meta GmbH",
             "role": "Front End Engineer",
             "location": "Berlin - Germany",
             "start": "Dec 19",
+            "stop": "Dec 20",
             "description": [
                 "Responsible of maintaining Partner Dashboard, Visual Meta's b2b reporting tool, which aim is to provide statistics and reports to ladenzeile.de business customers",
                 "Charged of integrating UI/UX design according to given mockups in order to improve Partner Dashboard's ease of use and efficiency",
@@ -15,7 +23,7 @@
             ]
         },
         {
-            "name": "Zero to One Technology",
+            "company": "Zero to One Technology",
             "role": "Developer",
             "location": "Caen - France",
             "start": "Jan 18",
@@ -28,7 +36,7 @@
             ]
         },
         {
-            "name": "Apitic",
+            "company": "Apitic",
             "role": "Developer",
             "location": "Lannion - France",
             "start": "Jun 16",
@@ -40,7 +48,7 @@
             ]
         },
         {
-            "name": "Apitic",
+            "company": "Apitic",
             "role": "Intern",
             "location": "Lannion - France",
             "start": "Apr 16",
@@ -55,6 +63,11 @@
 
     "title_projects": "Selected Projects",
     "projects": [
+        {
+            "role": "Developer",
+            "company": "Visual Meta GmbH",
+            "description": "PD redesign"
+        },
         {
             "role": "Developer",
             "company": "Zero to One Technology",
@@ -121,6 +134,10 @@
                     "title": "Angular"
                 },
                 {
+                    "level": 0,
+                    "title": "Ember"
+                },
+                {
                     "level": 3,
                     "title": "Laravel"
                 },
@@ -184,8 +201,12 @@
             "title": "Methodologies",
             "skills": [
                 {
-                    "level": 2,
+                    "level": 3,
                     "title": "Scrum"
+                },
+                {
+                    "level": 2,
+                    "title": "Kanban"
                 }
             ]
         }

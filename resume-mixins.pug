@@ -1,4 +1,4 @@
-mixin item(title, place, location, from_date, to_date)
+mixin item(title, company, location, from_date, to_date)
     .blocks
         .date
             if from_date
@@ -9,8 +9,8 @@ mixin item(title, place, location, from_date, to_date)
         .details
             header
                 h3= title
-                if place
-                    span.place= place
+                if company
+                    span.company= company
                 if location
                     span.location= location
             .description

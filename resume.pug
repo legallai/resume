@@ -14,17 +14,17 @@ include resume-mixins.pug
                     each line in experience.description
                         li #{line}
 
-    .main-block
-        h2 #[i.fa.fa-folder-open] #{title_projects}
+    //- .main-block
+    //-     h2 #[i.fa.fa-folder-open] #{title_projects}
 
-        each project in projects
-            +item(project.role, project.company, null, null, null)
-                if typeof project.description === 'string'
-                    .description #{project.description}
-                else
-                    ul
-                        each line in project.description
-                            li #{line}
+    //-     each project in projects
+    //-         +item(project.company, null, null, null, null)
+    //-             if typeof project.description === 'string'
+    //-                 .description #{project.description}
+    //-             else
+    //-                 ul
+    //-                     each line in project.description
+    //-                         li #{line}
 
     .main-block.concise
         h2 #[i.fa.fa-graduation-cap] #{title_education}

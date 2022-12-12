@@ -1,12 +1,21 @@
 {
     "role": "Développeur web front end",
-
     "title_experiences": "Expériences",
     "experiences": [
         {
+            "name": "Qonto",
+            "role": "Ingénieur Front End Senior",
+            "location": "Remote - France",
+            "start": "Jan 20",
+            "description": [
+                "Membre de l'équipe onboarding, responsable de maintenir le (complexe) formulaire de creation de compte de Qonto",
+                "Participation a une multitude de sujets tels que l'amelioration de l'accessibilité et de la performance de l'app web"
+            ]
+        },
+        {
             "name": "Visual Meta GmbH",
             "role": "Ingénieur Front End",
-            "location": "Berlin - Germany",
+            "location": "Berlin - Allemagne",
             "start": "Dec 19",
             "description": [
                 "Responsable de maintenir le tableau de bord partenaire, l'outil de statistiques de Visual Meta, dont le but est de proposer des statistiques et des rapports aux clients entreprises de shopalike.fr",
@@ -38,46 +47,20 @@
                 "Design et implémentation de nouvelles fonctionnalités dans le back end et le front end incluant des interfaces utilisateur et des APIs",
                 "Allègement de la dette technique: réécriture et rafraîchissement de modules afin de faciliter les développements futurs"
             ]
-        },
-        {
-            "name": "Apitic",
-            "role": "Stagiaire",
-            "location": "Lannion - France",
-            "start": "Apr 16",
-            "stop": "Jun 16",
-            "description": [
-                "Conception et développement d'un système de gestion de tickets interne pour le service client et l'équipe de développement",
-                "Le logiciel devait répondre aux besoins de l'équipe du service client qui avait besoin d'une interface facilement navigable de façon à prendre les demandes client (avec gestion des permissions prise en compte)",
-                "Devait également pouvoir servir de gestionnaire de bugs logiciels"
-            ]
         }
     ],
-
     "title_projects": "Projets",
     "projects": [
         {
-            "role": "Développeur",
-            "company": "Zero to One Technology",
-            "description": "Développement de modules pour une adaptation du Comscope de ZTO aux conversations téléphoniques avec pour but de déployer la solution dans les call centers en intégrant des éléments d'UI/UX ainsi que des APIs coté serveur"
-        },
-        {
-            "role": "Responsable de projet, responsable d'alternance",
-            "company": "Apitic",
+            "company": "Qonto",
             "description": [
-                "Conception et développement d'un logiciel de commande client pour les rayons spécifiques des grandes surfaces (charcuterie, fromage) en collaboration avec un alternant",
-                "Le projet devait être déployé dans les points du supermarché où les employés prenaient les commandes clients avec la possibilité d'être déconnecté du réseau puis de resynchroniser"
+                "",
+                ""
             ]
-        },
-        {
-            "role": "Responsable de projet",
-            "description": "Conception et développement d'un logiciel interne pour gérer les abonnements clients d'Apitic ainsi que leurs options et facturation"
         }
     ],
-
     "title_education": "Education",
-
     "title_contact": "Contact",
-
     "title_skills": "Compétences",
     "skillsCategories": [
         {
@@ -100,14 +83,6 @@
                     "title": "CSS3"
                 },
                 {
-                    "level": 4,
-                    "title": "PHP"
-                },
-                {
-                    "level": 2,
-                    "title": "Python 3"
-                },
-                {
                     "level": 2,
                     "title": "Node.js"
                 }
@@ -121,34 +96,18 @@
                     "title": "Angular"
                 },
                 {
-                    "level": 3,
-                    "title": "Laravel"
-                },
-                {
-                    "level": 2,
-                    "title": "Symfony"
-                },
-                {
-                    "level": 2,
-                    "title": "AngularJS"
+                    "level": 4,
+                    "title": "Ember JS"
                 },
                 {
                     "level": 1,
                     "title": "Vue.js"
                 }
             ]
-    },
+        },
         {
             "title": "Libraries",
             "skills": [
-                {
-                    "level": 4,
-                    "title": "jQuery"
-                },
-                {
-                    "level": 3,
-                    "title": "Bootstrap"
-                },
                 {
                     "level": 2,
                     "title": "d3.js"
@@ -171,12 +130,8 @@
                     "title": "Shell"
                 },
                 {
-                    "level": 1,
-                    "title": "Jenkins"
-                },
-                {
-                    "level": 1,
-                    "title": "Kubernetes"
+                    "level": 2,
+                    "title": "Gitlab CI"
                 }
             ]
         },
@@ -184,8 +139,8 @@
             "title": "Methodologies",
             "skills": [
                 {
-                    "level": 2,
-                    "title": "Scrum"
+                    "level": 5,
+                    "title": "Tests automatises"
                 }
             ]
         }
